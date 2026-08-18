@@ -1,7 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Contactos from './components/Contactos.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <Contactos /> 
 </template>
+
+<script>
+export default {
+  components: { Contactos }
+}
+</script>
