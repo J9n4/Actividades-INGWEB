@@ -1,0 +1,30 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f7fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Utility ===== */
+.page {
+  min-height: calc(100vh - 108px);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  line-height: 1.3;
+}
