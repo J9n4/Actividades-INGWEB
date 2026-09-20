@@ -9,8 +9,8 @@ const form = ref({ isbn: '', titulo: '', editorial: '', nivel: 'Básica', anio_p
 function guardar(){
   // TODO: validar ISBN (10 o 13)
   // BUG: condición imposible (usa && en vez de ||)
-  if(form.value.isbn.length < 10 && form.value.isbn.length < 13){ // BUG
-    alert('ISBN demasiado corto')
+  if(form.value.isbn.length < 10 || form.value.isbn.length > 13){ // BUG
+    alert('ISBN inválido')
     return
   }
   // BUG: guardar con campo 'anio_publicacion' cuando en estado inicial hay 'anio'
