@@ -1,0 +1,10 @@
+{
+    "servicios" : [
+    {"id": "1", "nombre": "Mantencion de computadores", "categoria": "Soporte", "precio": "25000", "descripcion":
+    "Diagnostico y limpieza preventiva" },
+    {"id": "2", "nombre": "Diseño de sitio web", "categoria": "Desarrollo", "precio": "180000", "descripcion":
+    "Sitio institucional adaptable  "},
+    {"id": "3", "nombre": "Instalacion de red", "categoria": "Redes", "precio": "7500", "descripcion":
+    "Configuracion de red local"    }
+    ]
+}
